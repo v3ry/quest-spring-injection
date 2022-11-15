@@ -17,7 +17,7 @@ public class WizardController {
 
     @Autowired
     @Qualifier("wizardRepository")
-    private WizardDao repository = new WizardRepository();
+    private WizardDao repository;
 
 
     @GetMapping("/wizards")
